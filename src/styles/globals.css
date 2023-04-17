@@ -1,0 +1,40 @@
+.row {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.row:hover {
+  background-color: #2b2b2b;
+}
+
+.MuiButton-text {
+  color: #fff;
+}
+
+.MuiTableCell-body {
+  padding-left: 40px;
+}
+
+.edit-progress {
+  display: flex;
+  gap: 8px;
+}
+
+.MuiInputBase-root {
+  height: 34px;
+  width: 70px;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found a {
+  text-decoration: none;
+}
+
