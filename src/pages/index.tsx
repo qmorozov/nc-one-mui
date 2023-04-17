@@ -178,10 +178,10 @@ const Main = ({ studentsData }: IMain) => {
           25,
           { value: students.length, label: 'All' }
         ]}
+        page={page}
         component="div"
         count={students.length}
         rowsPerPage={rowsPerPage}
-        page={page}
         onPageChange={handleChangePage}
         onRowsPerPageChange={handleChangeRowsPerPage}
       />
